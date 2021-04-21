@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Header = ()=>{
-  return(
+const Header = () => {
+  return (
     <>
-    <div className="container-fluid main_head">
+      <div className="container-fluid main_head">
         <div className="row ">
           <div className="col-md-6 col-12 main_header_left">
             <h1>The future of health care is Home Care</h1>
@@ -30,6 +30,6 @@ const Header = ()=>{
         </h5>
       </div>
     </>
-  )
-}
+  );
+};
 export default Header;

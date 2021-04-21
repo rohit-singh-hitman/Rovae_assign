@@ -24,9 +24,19 @@ const card = () => {
 
               <Caru />
 
-              <div className="col-md-4 col-10" style={{display:'flex',justifyContent:'center'}}>
+              <div
+                className="col-md-4 col-10"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
                 <div className="card" style={{ width: "30rem" }}>
-                <i class="fas fa-phone-square-alt" style={{fontSize:'10rem',display:'flex',justifyContent:'center'}}></i>
+                  <i
+                    class="fas fa-phone-square-alt"
+                    style={{
+                      fontSize: "10rem",
+                      display: "flex",
+                      justifyContent: "center"
+                    }}
+                  ></i>
                   <div className="card-body">
                     <h5 className="card-title">Do You Need Support</h5>
                     <h6 className="card-text">We Glad To Help !</h6>

@@ -21,47 +21,47 @@ const Footer = () => {
                   </a>
                   <p></p>
                 </div>
-                
-                  <div className="col-md-2 col-5 ">
-                    <h3>Services</h3>
-                    <p>
-                      <i class="far fa-circle"></i>Hourly Care
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Daily Care
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Hospital To Home
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Respite Care
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Specialized Care
-                    </p>
-                  </div>
-                  <div className="col-md-2 col-5 ">
-                    <h3>Company</h3>
-                    <p>
-                      <i class="far fa-circle"></i>About Us
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Locations
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Care Givers
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>News & Blogs
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>Contact Us
-                    </p>
-                    <p>
-                      <i class="far fa-circle"></i>FAQ
-                    </p>
-                  </div>
-                
+
+                <div className="col-md-2 col-5 ">
+                  <h3>Services</h3>
+                  <p>
+                    <i class="far fa-circle"></i>Hourly Care
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Daily Care
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Hospital To Home
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Respite Care
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Specialized Care
+                  </p>
+                </div>
+                <div className="col-md-2 col-5 ">
+                  <h3>Company</h3>
+                  <p>
+                    <i class="far fa-circle"></i>About Us
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Locations
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Care Givers
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>News & Blogs
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>Contact Us
+                  </p>
+                  <p>
+                    <i class="far fa-circle"></i>FAQ
+                  </p>
+                </div>
+
                 <div className="col-md-4 col-10 ">
                   <h4>Sign up to receive the latest articles</h4>
 

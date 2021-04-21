@@ -91,7 +91,7 @@ const Rating = () => {
                     data-slide="prev"
                   >
                     <span
-                      class="carousel-control-prev-icon" 
+                      class="carousel-control-prev-icon"
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only">Previous</span>
