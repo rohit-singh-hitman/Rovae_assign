@@ -1,5 +1,5 @@
 import React from "react";
-
+import h1 from './Images/healthcare 1.png'
 const Health = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Health = () => {
                 </div>
               </div>
               <div className="col-md-4 col-10 main_header_left">
-                <img src="../images/healthcare 1.png" alt="" />
+                <img src={h1} alt="" />
               </div>
             </div>
           </div>

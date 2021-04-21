@@ -47,6 +47,10 @@ body {
 }
 .App_Read h4 i {
   margin-right: 0.5rem;
+  color: #0047ab;
+}
+.App_Read h4{
+  color: #0047ab;
 }
 .navbar button {
   background: grey;

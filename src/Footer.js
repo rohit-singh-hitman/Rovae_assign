@@ -1,6 +1,8 @@
 import React from "react";
 import { Input } from "antd";
-
+import logo from "./Images/UC-Logo_Vector-01 2.jpg"
+import pic1 from "./Images/Nybc.png"
+import pic2 from "./Images/chapaa.png"
 import { Button, Tooltip } from "antd";
 const Footer = () => {
   return (
@@ -17,7 +19,7 @@ const Footer = () => {
                     hello@universacare.com P: (718) 224-3758 F: 8777999065
                   </p>
                   <a className="Footer_brand" href="#">
-                    <img src="../images/UC-Logo_Vector-01 2.jpg" alt="navbar" />
+                    <img src={logo} alt="navbar" />
                   </a>
                   <p></p>
                 </div>
@@ -70,8 +72,8 @@ const Footer = () => {
                     <Button type="primary">Submit</Button>
                   </div>
                   <div class="footer_img ">
-                    <img src="../images/chapaa.png" alt="" />
-                    <img src="../images/Nybc.png" alt="" />
+                    <img src={pic2} alt="" />
+                    <img src={pic1} alt="" />
                   </div>
                   <p className="footer_icon">
                     Follow Us<i class="fab fa-facebook-square"></i>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Boot from './Images/UC-Logo_Vector-01 2.jpg'
 const Navbar = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg ">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src="../images/UC-Logo_Vector-01 2.jpg" alt="navbar" />
+              <img src={Boot} alt="navbar" />
             </a>
             <button
               className="navbar-toggler"

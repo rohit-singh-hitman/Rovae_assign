@@ -1,5 +1,5 @@
 import React from "react";
-
+import C1 from './Images/Chaps.png'
 const Chap = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const Chap = () => {
           <div className="col-md-10 col-12 mx-auto">
             <div className="row ">
               <div className="col-md-4 col-10">
-                <img src="../images/Chaps.png" alt="" />
+                <img src={C1} alt="" />
               </div>
               <div className="col-md-8 col-10 chap">
                 <h1> CHAP Accreditation and this line can be about this big</h1>

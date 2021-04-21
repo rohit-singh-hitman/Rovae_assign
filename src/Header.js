@@ -1,8 +1,9 @@
 import React from "react";
-
+import Head from './Images/Vector 1.jpg'
 const Header = () => {
   return (
     <>
+    
       <div className="container-fluid main_head">
         <div className="row ">
           <div className="col-md-6 col-12 main_header_left">
@@ -15,7 +16,7 @@ const Header = () => {
           </div>
           <div className="col-md-6 col-12 main_header_right align-items-center">
             <img
-              src="../images/Vector 1.jpg"
+              src={Head}
               alt="rohit"
               className="img-fluid"
               title="rohit"
