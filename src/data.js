@@ -1,10 +1,10 @@
-import python from "../public/images/Website Illustrations 3.png";
-import software from "../public/images/Website Illustrations 1.png";
-import Mobile from "../public/images/Website Illustrations 2.png";
-import analysis from "../public/images/Website Illustrations 4.png";
-import data from "../public/images/Website Illustrations 5.png";
-import big from "../public/images/Website Illustrations 6.png";
-import b from "../public/images/Website Illustrations 7.png";
+import python from "./Images/Website Illustrations 3.png";
+import software from "./Images/Website Illustrations 1.png";
+import Mobile from "./Images/Website Illustrations 2.png";
+import analysis from "./Images/Website Illustrations 4.png";
+import data from "./Images/Website Illustrations 5.png";
+import big from "./Images/Website Illustrations 6.png";
+import b from "./Images/Website Illustrations 7.png";
 
 const Sdatas = [
   {
