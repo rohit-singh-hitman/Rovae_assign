@@ -6,6 +6,7 @@ import Cards from "./Cards";
 const { Meta } = Card;
 import Carouse from "./Carousel";
 import Caru from "./Caru";
+import cal from './Images/Group.png'
 const card = () => {
   return (
     <>
@@ -26,20 +27,16 @@ const card = () => {
 
               <div
                 className="col-md-4 col-10"
-                style={{ display: "flex", justifyContent: "center" }}
+                style={{  }}
               >
-                <div className="card" style={{ width: "30rem" }}>
-                  <i
-                    class="fas fa-phone-square-alt"
-                    style={{
-                      fontSize: "10rem",
-                      display: "flex",
-                      justifyContent: "center"
-                    }}
-                  ></i>
+                <div className="card" style={{ width: "30rem" ,display: "flex",flexDirection:'column',alignItems:'center',}}>
+                  <img src={cal} alt="call" style={{width:'80px'}}/>
                   <div className="card-body">
                     <h5 className="card-title">Do You Need Support</h5>
-                    <h6 className="card-text">We Glad To Help !</h6>
+                    <h6 className="card-text" style={{display:'flex',justifyContent:'center'}}>We Glad To Help !</h6>
+                    <a href="/About" style={{display:'flex',justifyContent:'center',border:'none'}}>
+              <button style={{backgroundColor:'#0047AB',color:'#fff',borderRadius:'2px'}}>Contact Me</button>
+            </a>
                   </div>
                 </div>
               </div>
