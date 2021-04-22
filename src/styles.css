@@ -407,13 +407,34 @@ body {
   width: 800px;
   height: 250px;
 }
+.card{
+  width:auto;
+  height:auto;
+}
 .card h5 {
   font-size: 2rem;
 }
 .card h6 {
   font-size: 1.5rem;
 }
+.show {
+  display: none !important;
+}
+.cc {
+  display: flex;
+}
+.show1 {
+  visibility: visible;
+}
+
+
 @media (max-width: 768px) {
+  .show {
+    display:block !important;
+  }
+  .show1 {
+    display: none;
+  }
   .App_Read {
     font-size: 10rem !important;
   }
@@ -434,6 +455,19 @@ body {
   .main_header_left a button {
     margin: auto;
     padding: auto;
+  }
+  .card{
+    width:300px;
+    height:300px;
+  }
+  .card img{
+    width:150px;
+  }
+  .card h5{
+    font-size:1rem;
+  }
+  .card p{
+    font-size:0.7rem;
   }
   .card_1 {
     height: auto;
