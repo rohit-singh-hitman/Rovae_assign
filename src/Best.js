@@ -50,7 +50,7 @@ const Best = () => {
                 <div class="img_1">
                   <img src={p4} alt="" />
                 </div>
-                <h1>4. Ongoing Support & Supervision</h1>
+                <h1>4. Ongoing Support and Supervision</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                   eget augue nec massa volutpat aliquam fringilla non.

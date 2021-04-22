@@ -29,7 +29,7 @@ class Card extends React.Component {
           <div className="col-md-10 col-10 ">
             <div className="row">
               <div className="col-md-6 col-10 peace">
-                <h3>Your peace of mind is our number one priority.</h3>
+                <h3>Your peace of mind is <span>our number one priority.</span></h3>
                 <p>
                   UniversaCare offers a range of services for in-home care. We
                   are your partners in care, and work with you to come up with a

@@ -7,7 +7,7 @@ const Health = () => {
         <div className="row">
           <div className="col-md-10 col-10 mx-auto">
             <div className="row">
-              <div className="col-md-8 col-10 main_header_right ">
+              <div className="col-md-8 col-10 main_header_rights ">
                 <div className="row Health_butt">
                   <h1>WE DO WHATEVER IT MAKES TO BRING YOU PEACE OF MIND</h1>
 
@@ -16,7 +16,7 @@ const Health = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-md-4 col-10 main_header_left">
+              <div className="col-md-4 col-10 main_header_lefts">
                 <img src={h1} alt="" />
               </div>
             </div>
